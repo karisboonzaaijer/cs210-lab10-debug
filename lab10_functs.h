@@ -1,7 +1,7 @@
 /** lab10_functs.h
 * ===========================================================
-* Name: Name, Date
-* Section:
+*  Name: Karis Boonzaaijer, September 5, 2024
+* Section: M3
 * Project: Lab 10
 * Purpose: Debugging
 * ===========================================================
@@ -9,4 +9,5 @@
  * Complete the tasks outlined in the lab writeup.
 */
 
-double convertTemperature(int);
+double convertTemperature(double);
+int findLargest(int, int, int);
