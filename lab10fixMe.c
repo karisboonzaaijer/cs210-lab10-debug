@@ -12,9 +12,10 @@
 #include <stdio.h>
 #include "lab10_functs.h"
 
-int Main() { 
+int main() { 
     // findLargest()
     int n1, n2, n3;
+
 
     printf("Enter three integer numbers: ");
     scanf("%d %d %d", &n1, &n2, &n3);            
@@ -23,10 +24,10 @@ int Main() {
 
     // convertTemperature()
     double fahrenheit;
-    printf("Please enter a temperature in fahrenheit: \n");
-    scanf("%lf\n", &fahrenheit);
-    double celsius = convertTemperature(fahrenheit);
-    printf("%lf\n", celsius);
+    printf("Please enter a temperature in fahrenheit: ");
+    scanf("%lf", &fahrenheit);
+    double celcius = convertTemperature(fahrenheit);
+    printf("%lf\n", celcius);
 
     return 0; 
 }
